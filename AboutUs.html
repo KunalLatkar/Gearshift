@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gearshift | ABOUT US</title>
+  <style>
+    /* Body Styles */
+    body {
+      margin: 0;
+      color: blue;
+      font-family:sans-serif;
+    }
+
+    /* Video Styles */
+    video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    /* Header Styles */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background-color: rgb(17, 45, 96);
+      color: #fff;
+    }
+
+    #logo {
+      color: white;
+      padding: 5px;
+      font-size: larger;
+      border: 2px solid white;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    /* Brand Logos Section Styles */
+    .brand-logos {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .brand-logos img {
+      width: 120px;
+      margin-right: 30px;
+    }
+
+    /* Main Content Styles */
+    main {
+      padding: 30px;
+      color: white;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.5;
+    }
+
+    /* Employee Section Styles */
+    .team {
+      display: flex;
+      flex-wrap: wrap; /* Allow wrapping to new line */
+      justify-content: space-between; /* Distribute items evenly */
+      align-items: flex-start; /* Align items at the start */
+    }
+
+    .team-member {
+      flex-basis: calc(50% - 40px); /* Set width for two employees per row */
+      margin-bottom: 20px; /* Add space between team members */
+      margin-right: 10px; /* Reduce gap between employees at the same level */
+      margin-left: 10px; /* Reduce gap between employees at the same level */
+      text-align: center;
+    }
+
+    .team-member img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .about-content{
+      font-size: larger;
+    }
+
+    /* Footer Styles */
+    footer {
+      background-color: rgb(17, 45, 96);
+      color: white;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <video autoplay loop muted>
+    <source src="Car.mp4" type="video/mp4">
+  </video>
+
+  <header>
+    <a id="logo" href="home.php">Gearshift</a>
+    <h2>About Us</h2>
+  </header>
+
+  <!-- Brand Logos Section -->
+  <section class="brand-logos">
+    <img src="https://www.svgrepo.com/show/446940/aston-martin.svg" alt="Brand 1">
+    <img src="ferrariLogo.png" alt="Brand 2">
+    <img src="ml_logo.png" alt="Brand 3">
+    <img src="kon_logo.png" alt="Brand 4">
+  </section>
+
+  <main>
+    <section class="about-content">
+      <h2>About Gearshift</h2>
+      <p>Gearshift, established in 2024, is your one-stop shop for the world's most exhilarating luxury sports cars. We offer a curated selection of vehicles from top automotive brands, including icons like Aston Martin, Koenigsegg, McLaren, and Ferrari. Whether you're searching for unparalleled performance or breathtaking design, Gearshift has the dream car waiting to ignite your passion. Explore our extensive inventory online, schedule a personalized test drive, or browse our convenient online booking options. Let Gearshift become the gateway to your extraordinary driving experience.</p>
+    </section>
+
+    <section class="team">
+      <div class="team-member">
+        <img src="https://i.pinimg.com/736x/11/41/61/1141614c8690ca0c3a3183827e4d47f3.jpg" alt="Person 1">
+        <h3>Ishan G</h3>
+        <p>CEO</p>
+      </div>
+
+      <div class="team-member">
+        <img src="https://i.pinimg.com/736x/11/41/61/1141614c8690ca0c3a3183827e4d47f3.jpg" alt="Person 2">
+        <h3>Soham S</h3>
+        <p>CFO</p>
+      </div>
+
+      <div class="team-member">
+        <img src="https://i.pinimg.com/736x/11/41/61/1141614c8690ca0c3a3183827e4d47f3.jpg" alt="Person 3">
+        <h3>Viraj W</h3>
+        <p>COO</p>
+      </div>
+
+      <div class="team-member">
+        <img src="https://i.pinimg.com/736x/11/41/61/1141614c8690ca0c3a3183827e4d47f3.jpg" alt="Person 4">
+        <h3>Kunal K</h3>
+        <p>CTO</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Gearshift. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

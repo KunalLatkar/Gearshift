@@ -1,0 +1,208 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://mclaren.scene7.com/is/image/mclaren/570s-spider-spec-1920x1080:crop-16x9?wid=1980&hei=1114");
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    background-color: #102C57; /* Existing red color */
+  }
+  
+  main {
+    padding-right: 20px;
+    padding-bottom: 200px;
+    padding-left: 20px;
+  }
+  
+   
+#outerbtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn{
+color: black;
+background-color: #DAC0A3;
+padding: 5px 5px;
+text-transform: uppercase;
+border-radius: 10px;
+box-shadow: 6px 6px 29px 4px black ;
+font-size: larger;
+margin: auto; /* Centers the button horizontally within its container */
+}
+
+.popup{
+background: rgba(0, 0, 0, 0.6);
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+display: none;
+justify-content: center;
+align-items: center;
+z-index: 2;
+}
+
+.popupmod{
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  margin-top: 30px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  }
+
+.close{
+position: absolute;
+top: -15px;
+right: -15px;
+background: white;
+height: 20px;
+border-radius: 50%;
+box-shadow: 6px 6px 29px 4pxr rgb(47, 44, 44);
+cursor: pointer;
+}
+
+.close1{
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background: white;
+  height: 20px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 29px 4px rgb(47, 44, 44);
+  cursor: pointer;
+  }
+
+.input{
+padding: 10px;
+display: block;
+margin: 20px auto;
+border: 1px solid gray;
+}
+
+.popup-content{
+height: 250px;
+width: 500px;
+margin-top: 20px;
+background: white;
+padding: 20px;
+border-radius: 5px;
+position: relative;
+}
+
+.popup-content-mod{
+  height: 700px;
+  width: 500px;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  }
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  #logo {
+    margin-right: 600px;
+    color: white;
+    padding: 5px;
+    border: 2px solid white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  label {
+    display: block;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  #Mod-label {
+    display: block;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  marquee{
+     color: red;
+  }
+
+  input[type="text"],
+  select,
+  input[type="date"], 
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    color: black;
+    background-color: #DAC0A3;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 6px 6px 29px 4px black ;
+    font-size: larger;
+    margin: auto; /* Centers the button horizontally within its container */
+  }
+  
+  .btn{
+    color: black;
+    width: 100%;
+    background-color: #DAC0A3;
+    padding: 5px 5px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    box-shadow: 6px 6px 29px 4px black ;
+    font-size: larger;
+    margin: auto; /* Centers the button horizontally within its container */
+  }
+
+  .btn:hover {
+    background-color: #102C57;
+    color: white;
+  }
+
+  button:hover {
+    background-color: #102C57;
+    color: white;
+  }
+  
+  footer {
+    background-color: #102C57;
+    color: white;
+    padding-top: 20px;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  input{
+    padding: 8px;
+    width: 405px;
+    display: block;
+    margin: 2px auto;
+    border: 1px solid gray;
+  }

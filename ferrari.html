@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gearshift | Ferrari</title>
+  <link rel="stylesheet" href="ferrari.css">
+</head>
+<body>
+  <a id="logo" href="home.html">Gearshift</a>
+  <div id="flogo">
+    <img src="ferrariLogo.png" alt="">
+  </div>
+  <div class="video-container">
+    <video autoplay loop muted>
+      <source src="Car.mp4" type="video/mp4">
+    </video>
+  </div>
+  <section class="image-container">
+    <div class="video-section fade-in" id="section1">
+        <div>
+        <h2>Ferrari: Where Passion Meets Performance</h2>
+        <p> Experience the pinnacle of Italian automotive design and engineering excellence.</p>
+        </div>
+    </div>
+    <div class="image-section fade-in" id="section3">
+      <h2>SF90 STRADALE</h2>
+      <p>THE NEW SERIES-PRODUCTION SUPERCAR</p>
+      <a href="SF90  STRADALE.html"><button>Discover more</button></a>
+    </div>
+    <div class="image-section fade-in" id="section4">
+      <h2>FERRARI 296 GTB</h2>
+      <p>Unleash the raw power and cutting-edge technology.</p>
+      <a href="FERRARI 296 GTB.html"><button>Discover more</button></a>
+    </div>
+    <div class="image-section fade-in" id="section5">
+      <h2>FERRARI 812 GTS</h2>
+      <p>800 cv makes it the most powerful production convertible on the market.</p>
+      <button>Discover more</button>
+    </div>
+    <div class="image-section fade-in" id="section6">
+      <h2>FERRARI PUROSANGUE</h2>
+      <p>Become part of the Ferrari legacy.</p>
+      <button>Discover more</button>
+    </div>
+    <div class="image-section fade-in" id="section7">
+      <h2>Ferrari Roma</h2>
+      <p>800 cv makes it the most powerful production convertible on the market.</p>
+      <button>Discover more</button>
+    </div>
+    <div class="image-section fade-in" id="section8">
+      <h2>FERRARI 296 GTS</h2>
+      <p>Become part of the Ferrari legacy.</p>
+      <button>Discover more</button>
+    </div>
+  </section>
+
+  <script>
+    const sections = document.querySelectorAll('.image-section');
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.remove('fade-in');
+        }
+      });
+    });
+
+    sections.forEach(section => observer.observe(section));
+  </script>
+</body>
+</html>
